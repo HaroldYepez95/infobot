@@ -47,7 +47,7 @@ async def on_ready():
     #? Custom Activity
     await client.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name="fp help"))
 
-client.run("ODE3MDQxODk3NjQ1OTMyNTU0.YEDvkA.GuTOaa3X2xla70i2_AnYd68n07o") #token del bot
+client.run(" ") #token del bot
 
 
 if __name__ == "__main__":
