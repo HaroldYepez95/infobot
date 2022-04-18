@@ -1,0 +1,9 @@
+heroku maintenance:on
+
+heroku ps:scale web=0
+
+mysql --host=us-cdbr-east-03.cleardb.com --user=bd8577e8e19d81 --password=57efec97 --reconnect heroku_59f1f15e195609b < C:\Users\Harold\Downloads\PracticasEmpresariales\MySQL-Discord-Bot-master\MySQL-Discord-Bot-master\infoBotDiscord.sql
+
+heroku maintenance:off
+
+heroku ps:scale web=1
